@@ -1,0 +1,48 @@
+{
+  "site": {
+    "brand": "30 Day Challenge",
+    "nav": [
+      { "label": "Leaderboard", "href": "/leaderboard", "type": "link" },
+      { "label": "Sign up", "href": "#signup", "type": "modal" },
+      { "label": "Sign in", "href": "#signin", "type": "modal" }
+    ],
+    "footer": {
+      "social": ["twitter", "github", "discord"],
+      "copyright": "© 2025 30 Day Challenge — Open source"
+    }
+  },
+  "hero": {
+    "title": "Create your 30 Day Challenge",
+    "subtitle": "Optional sign-up — progress saved locally until you sign in.",
+    "searchBar": {
+      "label": "Describe your goal (you'll provide the prompt)",
+      "placeholder": "",
+      "cta": { "label": "Create 30-day challenge", "action": "generate", "enabledWhen": "textarea_not_empty" },
+      "demoCTA": { "label": "Start Fitness Demo", "action": "startFitnessDemo" }
+    },
+    "featureQuickLinks": [
+      { "id": "how-it-works", "label": "How it works" },
+      { "id": "benchmarks", "label": "Benchmarks (coming soon)" },
+      { "id": "recreate", "label": "Recreate challenge" }
+    ]
+  },
+  "features": [
+    {
+      "id": "keyboard",
+      "title": "Built for your keyboard",
+      "subtitle": "Rapid keyboard shortcuts for fast progress.",
+      "icon": "keyboard"
+    },
+    {
+      "id": "speed",
+      "title": "Breathtakingly fast",
+      "subtitle": "Smooth, instant UI interactions and local-first performance.",
+      "icon": "lightning"
+    }
+  ],
+  "theme": {
+    "backgroundAsset": "public/assets/brain-float.png",
+    "primaryAccentGradient": ["#6EF9B6", "#9B7CFA"],
+    "backgroundBase": "#050507"
+  }
+}
